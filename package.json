@@ -3,7 +3,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
     "start": "node index.js",
     "client-install": "cd clients && npm install",
     "client-build": "cd clients && npm run build",
@@ -26,7 +25,7 @@
     "socket.io-client": "^4.6.1"
   },
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "react-scripts": "^5.0.1"
